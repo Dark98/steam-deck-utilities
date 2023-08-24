@@ -128,7 +128,7 @@ var GigabyteMultiplier = 1024 * 1024 * 1024
 var LibraryVDFLocation = filepath.Join(HomeDirectory, ".steam/steam/steamapps/libraryfolders.vdf")
 
 // MountDirectory The folder where all external devices are mounts
-var MountDirectory = "/run/media"
+var MountDirectory = "/mnt"
 
 // SteamDataRoot The default location where Steam keeps compatdata and shadercache
 var SteamDataRoot = filepath.Join(HomeDirectory, ".local/share/Steam")
